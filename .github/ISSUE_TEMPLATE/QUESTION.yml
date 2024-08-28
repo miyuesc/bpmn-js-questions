@@ -1,0 +1,31 @@
+name: question
+description: 遇到的问题
+title: "[Question]: "
+labels: ["new question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢你分享的问题
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: 遇到了什么问题？
+      description: 描述一下发生了什么，期望如何？现在的表现如何？（提供文字描述、截图、可复现示例）
+      placeholder: 问题描述
+    validations:
+      required: true
+  - type: input
+    id: bpmn_version
+    attributes:
+      label: bpmn-js 版本
+      placeholder: ex. 18.1.0
+    validations:
+      required: true
+  - type: input
+    id: base_version
+    attributes:
+      label: 技术栈基础库版本
+      placeholder: ex. Vue 3
+    validations:
+      required: true
