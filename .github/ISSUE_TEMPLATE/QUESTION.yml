@@ -1,7 +1,7 @@
 name: question
 description: 遇到的问题
 title: "[Question]: "
-labels: ["new question"]
+labels: ["question"]
 body:
   - type: markdown
     attributes:
