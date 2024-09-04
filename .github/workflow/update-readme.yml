@@ -1,0 +1,46 @@
+#
+#- name: GitHub Push
+#  uses: ad-m/github-push-action@v0.8.0
+
+name: update-readme
+
+permissions:                    # Global permissions configuration starts here
+  contents: read                # 'read' access to repository contents
+  pull-requests: write          # 'write' access to pull requests
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+  # 每天下午四点执行（也就是16点，需要-8小时，所以是8）
+  schedule:
+    - cron: "0 0 * * *"
+
+jobs:
+  blog-catch-and-pages:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout codes
+        uses: actions/checkout@v3
+
+      - name: Use Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "18.x"
+
+      - name: Update readme file
+        run: npm run update:readme
+
+      - name: Commit files
+        run: |
+          git config --local user.email "miyuesc+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git commit -a -m "Update readme"
+
+      - name: GitHub Push
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.PAT_TOKEN }}
+          branch: main

@@ -5,7 +5,7 @@
   "main": "work.js",
   "type": "module",
   "scripts": {
-    "update": "node work.js"
+    "update:readme": "node work.js"
   },
   "repository": {
     "type": "git",
