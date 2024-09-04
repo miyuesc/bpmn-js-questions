@@ -1,0 +1,15 @@
+{
+  "name": "bpmn-js-questions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "work.js",
+  "type": "module",
+  "scripts": {
+    "update": "node work.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/miyuesc/bpmn-js-questions.git"
+  },
+  "private": true
+}

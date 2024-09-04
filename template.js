@@ -1,18 +1,19 @@
+/**
+ * @desc template
+ * @author MiyueFE <https://github.com/miyuesc>
+ * @since 2024/9/4 10:14
+ */
 
+export const readmePrefix = `
 # bpmn-js 常见问题及解决方案
 
 > 如果有新的问题，可以点击 [这里](https://github.com/miyuesc/bpmn-js-questions/issues/new/choose) 创建新的 issue 进行讨论。
 
 ### 问题列表
 
-- [[Question]: Modeler创建后无法从Palette中创建元素](https://github.com/miyuesc/bpmn-js-questions/issues/7)
-- [[Question]: 使用 importXML 导入报错 “no diagram to display”](https://github.com/miyuesc/bpmn-js-questions/issues/6)
-- [[Question]: 只想使用支持缩放和拖拽的预览模式](https://github.com/miyuesc/bpmn-js-questions/issues/5)
-- [[Question]: 使用PropertiesPanel时ID栏出现 “ID must be unique.” 错误](https://github.com/miyuesc/bpmn-js-questions/issues/4)
-- [[Question]: 报错：Uncaught Error: unknown type [xxx:xxx]](https://github.com/miyuesc/bpmn-js-questions/issues/3)
-- [[Question]: 操作过程中报错：TypeError: cannot read property 'isGeneric' of undefined](https://github.com/miyuesc/bpmn-js-questions/issues/2)
-- [[Question]: 元素创建时ID生成规则如何修改](https://github.com/miyuesc/bpmn-js-questions/issues/1)
+`
 
+export const readmeSuffix = `
 ### bpmn-js 常用工具库说明
 
 #### 1. [bpmn-auto-layout](https://github.com/bpmn-io/bpmn-auto-layout)
@@ -80,3 +81,4 @@ bpmn-js 编辑器，以及官方属性面板（Camunda 和 Zeebe）中文翻译�
 #### 1. [bpmn-js-task-resize](https://github.com/ElCondor1969/bpmn-js-task-resize)
 
 bpmn-js 编辑 事件及任务节点 的 resize 支持，ElCondor1969 开发维护 (扩展 BpmnRules 的 resize 规则即可，不建议直接使用该库，已多年没有代码更新)。
+`
