@@ -57,6 +57,10 @@ bpmn-js 手绘风格元素，bpmn-io 官方团队开发维护。
 
 bpmn documentation 可视化显示插件，bpmn-io 官方团队开发维护。
 
+#### 11. [bpmn-js-bpmnlint](https://github.com/bpmn-io/bpmn-js-bpmnlint)
+
+bpmn 流程图校验结果可视化插件，必须搭配 [bpmnlint](https://github.com/bpmn-io/bpmnlint) 使用，bpmn-io 官方团队开发维护。
+
 ---
 
 #### 1. [diagram-js-grid-bg](https://github.com/miyuesc/diagram-js-grid-bg)
