@@ -4,19 +4,16 @@
 
 name: update-readme
 
-permissions:                    # Global permissions configuration starts here
-  contents: read                # 'read' access to repository contents
-  pull-requests: write          # 'write' access to pull requests
-
 on:
   workflow_dispatch:
   push:
     branches:
       - main
 
-  # 每天下午四点执行（也就是16点，需要-8小时，所以是8）
   schedule:
     - cron: "0 0 * * *"
+
+permissions: write-all
 
 jobs:
   blog-catch-and-pages:
