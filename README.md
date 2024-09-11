@@ -5,6 +5,8 @@
 
 ### 问题列表
 
+- [[Question]: importXml时出现TypeError: Cannot read properties of undefined (reading 'root-0')](https://github.com/miyuesc/bpmn-js-questions/issues/9)
+- [[Question]: 希望 Palette 始终展示双列](https://github.com/miyuesc/bpmn-js-questions/issues/8)
 - [[Question]: Modeler创建后无法从Palette中创建元素](https://github.com/miyuesc/bpmn-js-questions/issues/7)
 - [[Question]: 使用 importXML 导入报错 “no diagram to display”](https://github.com/miyuesc/bpmn-js-questions/issues/6)
 - [[Question]: 只想使用支持缩放和拖拽的预览模式](https://github.com/miyuesc/bpmn-js-questions/issues/5)
