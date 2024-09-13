@@ -5,6 +5,7 @@
 
 ### 问题列表
 
+- [[Question]: 如何美化 lint 错误提示？](https://github.com/miyuesc/bpmn-js-questions/issues/10)
 - [[Question]: importXml时出现TypeError: Cannot read properties of undefined (reading 'root-0')](https://github.com/miyuesc/bpmn-js-questions/issues/9)
 - [[Question]: 希望 Palette 始终展示双列](https://github.com/miyuesc/bpmn-js-questions/issues/8)
 - [[Question]: Modeler创建后无法从Palette中创建元素](https://github.com/miyuesc/bpmn-js-questions/issues/7)
