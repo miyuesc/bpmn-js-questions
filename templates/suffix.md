@@ -1,20 +1,6 @@
-/**
- * @desc template
- * @author MiyueFE <https://github.com/miyuesc>
- * @since 2024/9/4 10:14
- */
+## bpmn-js 常用工具库说明
 
-export const readmePrefix = `
-# bpmn-js 常见问题及解决方案
-
-> 如果有新的问题，可以点击 [这里](https://github.com/miyuesc/bpmn-js-questions/issues/new/choose) 创建新的 issue 进行讨论。
-
-### 问题列表
-
-`
-
-export const readmeSuffix = `
-### bpmn-js 常用工具库说明
+### bpmn-io 官方工具
 
 #### 1. [bpmn-auto-layout](https://github.com/bpmn-io/bpmn-auto-layout)
 
@@ -62,7 +48,7 @@ bpmn documentation 可视化显示插件，bpmn-io 官方团队开发维护。
 
 bpmn 流程图校验结果可视化插件，必须搭配 [bpmnlint](https://github.com/bpmn-io/bpmnlint) 使用，bpmn-io 官方团队开发维护。
 
----
+### 作者（MiyueFE）工具
 
 #### 1. [diagram-js-grid-bg](https://github.com/miyuesc/diagram-js-grid-bg)
 
@@ -80,9 +66,8 @@ bpmn 流程图校验结果可视化插件，必须搭配 [bpmnlint](https://gith
 
 bpmn-js 编辑器，以及官方属性面板（Camunda 和 Zeebe）中文翻译，MiyueFE 开发维护。
 
----
+### 其他
 
 #### 1. [bpmn-js-task-resize](https://github.com/ElCondor1969/bpmn-js-task-resize)
 
 bpmn-js 编辑 事件及任务节点 的 resize 支持，ElCondor1969 开发维护 (扩展 BpmnRules 的 resize 规则即可，不建议直接使用该库，已多年没有代码更新)。
-`
