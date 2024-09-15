@@ -9,6 +9,8 @@
 
 > ❓ Questioner: [y4n6](https://github.com/y4n6)
 
+> ✅ This question has been solved.
+
 
   ### [2 : importXml时出现TypeError: Cannot read properties of undefined (reading 'root-0')](https://github.com/miyuesc/bpmn-js-questions/issues/9)
 
@@ -41,6 +43,8 @@
   ### [6 : 只想使用支持缩放和拖拽的预览模式](https://github.com/miyuesc/bpmn-js-questions/issues/5)
 
 > ❓ Questioner: [miyuesc](https://github.com/miyuesc)
+
+> ✅ This question has been solved.
 
 
   ### [7 : 使用PropertiesPanel时ID栏出现 “ID must be unique.” 错误](https://github.com/miyuesc/bpmn-js-questions/issues/4)
