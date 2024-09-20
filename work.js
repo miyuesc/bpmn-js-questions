@@ -4,6 +4,7 @@
  * @since 2024/9/3 10:04
  */
 import { writeFileSync, readFileSync } from "fs"
+import {getCurrentDate, replaceKeywords} from "./utils/index.js";
 
 const owner = "miyuesc";
 const repo = "bpmn-js-questions";
@@ -44,10 +45,10 @@ function processIssueItem(issue, idx) {
   const questioner = issue.user
 
   if (issue.labels?.find(i => i.name === 'question')) {
-    content += `> ❓ Questioner: [${questioner.login}](${questioner.html_url})\n\n`
+    content += `> ❓ Questioner: [${questioner.login}](${questioner.html_url})\n`
   }
   if (issue.labels?.find(i => i.name === 'resolved')) {
-    content += `> ✅ This question has been solved.\n\n`
+    content += `>\n> ✅ This question has been solved.\n\n`
   }
 
   return content
@@ -68,9 +69,14 @@ async function mdGenerator() {
   const readmePrefix = readFileSync('./templates/prefix.md', 'utf-8')
   const readmeSuffix = readFileSync('./templates/suffix.md', 'utf-8')
 
-  await writeFileSync(`./README.md`, `${readmePrefix}\n${questions}\n${readmeSuffix}`)
+  const currentDate = getCurrentDate()
+
+  const md = `${replaceKeywords(readmePrefix, () => currentDate)}\n${questions}\n${readmeSuffix}`
+
+  await writeFileSync(`./README.md`, md)
 
   console.log("README 写入成功~")
 }
 
+// getCurrentDate()
 mdGenerator()
