@@ -28,6 +28,7 @@
       "events_url": "https://api.github.com/users/y4n6/events{/privacy}",
       "received_events_url": "https://api.github.com/users/y4n6/received_events",
       "type": "User",
+      "user_view_type": "public",
       "site_admin": false
     },
     "labels": [
@@ -80,6 +81,7 @@
       "events_url": "https://api.github.com/users/y4n6/events{/privacy}",
       "received_events_url": "https://api.github.com/users/y4n6/received_events",
       "type": "User",
+      "user_view_type": "public",
       "site_admin": false
     },
     "reactions": {
@@ -127,6 +129,7 @@
       "events_url": "https://api.github.com/users/Xnwf/events{/privacy}",
       "received_events_url": "https://api.github.com/users/Xnwf/received_events",
       "type": "User",
+      "user_view_type": "public",
       "site_admin": false
     },
     "labels": [
@@ -207,6 +210,7 @@
       "events_url": "https://api.github.com/users/miyuesc/events{/privacy}",
       "received_events_url": "https://api.github.com/users/miyuesc/received_events",
       "type": "User",
+      "user_view_type": "public",
       "site_admin": false
     },
     "labels": [
@@ -287,6 +291,7 @@
       "events_url": "https://api.github.com/users/miyuesc/events{/privacy}",
       "received_events_url": "https://api.github.com/users/miyuesc/received_events",
       "type": "User",
+      "user_view_type": "public",
       "site_admin": false
     },
     "labels": [
@@ -367,6 +372,7 @@
       "events_url": "https://api.github.com/users/miyuesc/events{/privacy}",
       "received_events_url": "https://api.github.com/users/miyuesc/received_events",
       "type": "User",
+      "user_view_type": "public",
       "site_admin": false
     },
     "labels": [
@@ -447,6 +453,7 @@
       "events_url": "https://api.github.com/users/miyuesc/events{/privacy}",
       "received_events_url": "https://api.github.com/users/miyuesc/received_events",
       "type": "User",
+      "user_view_type": "public",
       "site_admin": false
     },
     "labels": [
@@ -527,6 +534,7 @@
       "events_url": "https://api.github.com/users/miyuesc/events{/privacy}",
       "received_events_url": "https://api.github.com/users/miyuesc/received_events",
       "type": "User",
+      "user_view_type": "public",
       "site_admin": false
     },
     "labels": [
@@ -598,6 +606,7 @@
       "events_url": "https://api.github.com/users/miyuesc/events{/privacy}",
       "received_events_url": "https://api.github.com/users/miyuesc/received_events",
       "type": "User",
+      "user_view_type": "public",
       "site_admin": false
     },
     "labels": [
@@ -678,6 +687,7 @@
       "events_url": "https://api.github.com/users/miyuesc/events{/privacy}",
       "received_events_url": "https://api.github.com/users/miyuesc/received_events",
       "type": "User",
+      "user_view_type": "public",
       "site_admin": false
     },
     "labels": [
@@ -758,6 +768,7 @@
       "events_url": "https://api.github.com/users/Accccccccc/events{/privacy}",
       "received_events_url": "https://api.github.com/users/Accccccccc/received_events",
       "type": "User",
+      "user_view_type": "public",
       "site_admin": false
     },
     "labels": [
@@ -810,6 +821,7 @@
       "events_url": "https://api.github.com/users/miyuesc/events{/privacy}",
       "received_events_url": "https://api.github.com/users/miyuesc/received_events",
       "type": "User",
+      "user_view_type": "public",
       "site_admin": false
     },
     "reactions": {
