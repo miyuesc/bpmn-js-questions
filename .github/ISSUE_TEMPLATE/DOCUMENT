@@ -1,0 +1,29 @@
+name: document
+description: 文档
+title: "[Document]: "
+labels: ["document"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢你分享的文档
+  - type: textarea
+    id: content
+    attributes:
+      label: 请在这里填写文档正文
+    validations:
+      required: true
+  - type: input
+    id: bpmn_version
+    attributes:
+      label: bpmn-js 版本
+      placeholder: ex. 18.1.0
+    validations:
+      required: true
+  - type: input
+    id: base_version
+    attributes:
+      label: 技术栈基础库版本
+      placeholder: ex. Vue 3
+    validations:
+      required: true
