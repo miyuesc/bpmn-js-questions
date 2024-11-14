@@ -11,6 +11,7 @@ body:
     id: content
     attributes:
       label: 请在这里填写文档正文
+      description: ~~~~~
     validations:
       required: true
   - type: input
