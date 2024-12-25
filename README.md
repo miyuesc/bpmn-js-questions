@@ -2,79 +2,103 @@
 
 > 如果有新的问题，可以点击 [这里](https://github.com/miyuesc/bpmn-js-questions/issues/new/choose) 创建新的 issue 进行讨论。
 
-> **上次更新时间(UTC)：2024-12-25 00:48:59**
-
-## 一、常见问题与解决方案
+> **上次更新时间(UTC)：2024-12-26 -8:03:08**
 
 
-  ### [1 [Column]: 开篇：重新认识 bpmn.js 与 BPMN 规范](https://github.com/miyuesc/bpmn-js-questions/issues/12)
+## 一、bpmn-js 源码解析和实践
 
 
-  ### [2 : 自定义组件显示UI](https://github.com/miyuesc/bpmn-js-questions/issues/11)
+  #### [1 01-开篇：重新认识 bpmn.js 与 BPMN 规范](https://juejin.cn/post/7405471008600686633)
+
+
+  > 在正式开始介绍 bpmn.js 源码之前，我想先向大家介绍一下与 bpmn.js 相关的一些概念。根据官网介绍，bpmn.js 作为**符合 BPMN 2.0 标准 XML 文件**的 **阅读器
+  #### [2 02-源码篇1：Injector 依赖注入模式的实现](https://juejin.cn/post/7429243880883322930)
+
+
+  > 作为 bpmn.js 与 diagram.js 的模块化系统的底层依赖，Injector 通过 依赖注入 的形式完美分开了不同功能模块之前的核心代码，保证使用者 只需要了解所需依赖的功能，然后专注于各
+  #### [3 03-源码篇2：diagram.js 简介与EventBus全局事件总线](https://juejin.cn/post/7431760347708670003)
+
+
+  > 总的来说，diagram.js 虽然是作为 bpmn.js 的底层项目，用来提供绘图能力与交互能力，并实现了一些工具函数；但是 本身并没有实现太多功能，只是作为初始化依赖注入器与基础模块的入口，通过
+  #### [4 04-源码篇3：Canvas 基础画布与元素处理模块](https://juejin.cn/post/7451781444571742218)
+
+
+  > 在上一节的 diagram.js 简介部分，有提到过我们在 new 一个 Diagram 实例时，实际是将配置项和 CoreModule 核心模块放在一起之后用来 初始化依赖注入系统并绑定到 Diag
+  #### [5 05-源码篇4：Factory&Registry - 创建与注册-图形与对象的绑定机制](https://juejin.cn/post/7451984387443392562)
+
+
+  > bpmn-js 源码解析和实践：源码篇4 diagram-js 的 ElementFactory 与 ElementRegistry 解析。
+## 二、常见问题与解决方案
+
+
+  #### [1 [Column]: 开篇：重新认识 bpmn.js 与 BPMN 规范](https://github.com/miyuesc/bpmn-js-questions/issues/12)
+
+
+  #### [2 : 自定义组件显示UI](https://github.com/miyuesc/bpmn-js-questions/issues/11)
 
 > ❓ Questioner: [coder319](https://github.com/coder319)
 
-  ### [3 : 如何美化 lint 错误提示？](https://github.com/miyuesc/bpmn-js-questions/issues/10)
+  #### [3 : 如何美化 lint 错误提示？](https://github.com/miyuesc/bpmn-js-questions/issues/10)
 
 > ❓ Questioner: [y4n6](https://github.com/y4n6)
 >
 > ✅ This question has been solved.
 
 
-  ### [4 : importXml时出现TypeError: Cannot read properties of undefined (reading 'root-0')](https://github.com/miyuesc/bpmn-js-questions/issues/9)
+  #### [4 : importXml时出现TypeError: Cannot read properties of undefined (reading 'root-0')](https://github.com/miyuesc/bpmn-js-questions/issues/9)
 
 > ❓ Questioner: [Xnwf](https://github.com/Xnwf)
 >
 > ✅ This question has been solved.
 
 
-  ### [5 : 希望 Palette 始终展示双列](https://github.com/miyuesc/bpmn-js-questions/issues/8)
+  #### [5 : 希望 Palette 始终展示双列](https://github.com/miyuesc/bpmn-js-questions/issues/8)
 
 > ❓ Questioner: [miyuesc](https://github.com/miyuesc)
 >
 > ✅ This question has been solved.
 
 
-  ### [6 : Modeler创建后无法从Palette中创建元素](https://github.com/miyuesc/bpmn-js-questions/issues/7)
+  #### [6 : Modeler创建后无法从Palette中创建元素](https://github.com/miyuesc/bpmn-js-questions/issues/7)
 
 > ❓ Questioner: [miyuesc](https://github.com/miyuesc)
 >
 > ✅ This question has been solved.
 
 
-  ### [7 : 使用 importXML 导入报错 “no diagram to display”](https://github.com/miyuesc/bpmn-js-questions/issues/6)
+  #### [7 : 使用 importXML 导入报错 “no diagram to display”](https://github.com/miyuesc/bpmn-js-questions/issues/6)
 
 > ❓ Questioner: [miyuesc](https://github.com/miyuesc)
 >
 > ✅ This question has been solved.
 
 
-  ### [8 : 只想使用支持缩放和拖拽的预览模式](https://github.com/miyuesc/bpmn-js-questions/issues/5)
+  #### [8 : 只想使用支持缩放和拖拽的预览模式](https://github.com/miyuesc/bpmn-js-questions/issues/5)
 
 > ❓ Questioner: [miyuesc](https://github.com/miyuesc)
 >
 > ✅ This question has been solved.
 
 
-  ### [9 : 使用PropertiesPanel时ID栏出现 “ID must be unique.” 错误](https://github.com/miyuesc/bpmn-js-questions/issues/4)
+  #### [9 : 使用PropertiesPanel时ID栏出现 “ID must be unique.” 错误](https://github.com/miyuesc/bpmn-js-questions/issues/4)
 
 > ❓ Questioner: [miyuesc](https://github.com/miyuesc)
 
-  ### [10 : 报错：Uncaught Error: unknown type [xxx:xxx]](https://github.com/miyuesc/bpmn-js-questions/issues/3)
-
-> ❓ Questioner: [miyuesc](https://github.com/miyuesc)
->
-> ✅ This question has been solved.
-
-
-  ### [11 : 操作过程中报错：TypeError: cannot read property 'isGeneric' of undefined](https://github.com/miyuesc/bpmn-js-questions/issues/2)
+  #### [10 : 报错：Uncaught Error: unknown type [xxx:xxx]](https://github.com/miyuesc/bpmn-js-questions/issues/3)
 
 > ❓ Questioner: [miyuesc](https://github.com/miyuesc)
 >
 > ✅ This question has been solved.
 
 
-  ### [12 : 元素创建时ID生成规则如何修改](https://github.com/miyuesc/bpmn-js-questions/issues/1)
+  #### [11 : 操作过程中报错：TypeError: cannot read property 'isGeneric' of undefined](https://github.com/miyuesc/bpmn-js-questions/issues/2)
+
+> ❓ Questioner: [miyuesc](https://github.com/miyuesc)
+>
+> ✅ This question has been solved.
+
+
+  #### [12 : 元素创建时ID生成规则如何修改](https://github.com/miyuesc/bpmn-js-questions/issues/1)
 
 > ❓ Questioner: [Accccccccc](https://github.com/Accccccccc)
 >
