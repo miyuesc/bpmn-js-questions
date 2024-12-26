@@ -52,7 +52,7 @@ function processIssueItem(issue, idx) {
 export async function processIssues() {
   const issues = await fetchIssues()
 
-  let directory = "\n\n## 二、常见问题与解决方案\n\n";
+  let directory = "\n\n## 三、常见问题与解决方案\n\n";
   issues.forEach((issue, idx) => directory += processIssueItem(issue, idx));
 
   return directory

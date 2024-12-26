@@ -56,7 +56,7 @@ function processArticleItem(article, idx) {
 export async function processColumnArticles() {
   const articles = await fetchColumnArticles()
 
-  let directory = "## 一、bpmn-js 源码解析和实践\n\n";
+  let directory = "## 二、bpmn-js 源码解析和实践\n\n";
   articles.forEach((issue, idx) => directory += processArticleItem(issue, idx));
 
   return directory
