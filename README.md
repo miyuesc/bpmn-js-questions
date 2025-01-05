@@ -2,7 +2,7 @@
 
 > 如果有新的问题，可以点击 [这里](https://github.com/miyuesc/bpmn-js-questions/issues/new/choose) 创建新的 issue 进行讨论。
 
-> **上次更新时间(UTC)：2025-01-04 00:48:18**
+> **上次更新时间(UTC)：2025-01-05 00:54:30**
 
 ## 一、项目与书籍推荐
 
