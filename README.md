@@ -2,7 +2,7 @@
 
 > 如果有新的问题，可以点击 [这里](https://github.com/miyuesc/bpmn-js-questions/issues/new/choose) 创建新的 issue 进行讨论。
 
-> **上次更新时间(UTC)：2025-01-07 00:50:37**
+> **上次更新时间(UTC)：2025-01-08 00:50:27**
 
 ## 一、项目与书籍推荐
 
@@ -35,10 +35,6 @@
 ## 二、bpmn-js 源码解析和实践
 
 
-  #### [06-源码篇5：CommandStack 命令处理与记录的栈](https://juejin.cn/post/7454960025037783091)
-
-
-  > 《bpmn-js 源码解析和实践》第六篇：CommandStack 命令处理与记录的栈。解析了 `diagram-js` 的核心模块之一 —— `CommandStack` 命令记录栈的部分逻辑。
   #### [01-开篇：重新认识 bpmn.js 与 BPMN 规范](https://juejin.cn/post/7405471008600686633)
 
 
@@ -59,6 +55,10 @@
 
 
   > bpmn-js 源码解析和实践：源码篇4 diagram-js 的 ElementFactory 与 ElementRegistry 解析。
+  #### [06-源码篇5：CommandStack 命令处理与记录的栈](https://juejin.cn/post/7454960025037783091)
+
+
+  > 《bpmn-js 源码解析和实践》第六篇：CommandStack 命令处理与记录的栈。解析了 `diagram-js` 的核心模块之一 —— `CommandStack` 命令记录栈的部分逻辑。
 
 
 ## 三、常见问题与解决方案
@@ -67,10 +67,16 @@
   #### [1 : 如何阻止元素被删除](https://github.com/miyuesc/bpmn-js-questions/issues/13)
 
 > ❓ Questioner: [LouisXuan](https://github.com/LouisXuan)
+>
+> ✅ This question has been solved.
+
 
   #### [2 : 自定义组件显示UI](https://github.com/miyuesc/bpmn-js-questions/issues/11)
 
 > ❓ Questioner: [coder319](https://github.com/coder319)
+>
+> ✅ This question has been solved.
+
 
   #### [3 : 如何美化 lint 错误提示？](https://github.com/miyuesc/bpmn-js-questions/issues/10)
 
