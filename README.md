@@ -2,7 +2,7 @@
 
 > 如果有新的问题，可以点击 [这里](https://github.com/miyuesc/bpmn-js-questions/issues/new/choose) 创建新的 issue 进行讨论。
 
-> **上次更新时间(UTC)：2025-01-10 00:51:44**
+> **上次更新时间(UTC)：2025-01-11 00:50:22**
 
 ## 一、项目与书籍推荐
 
@@ -59,6 +59,10 @@
 
 
   > 《bpmn-js 源码解析和实践》第六篇：CommandStack 命令处理与记录的栈。解析了 `diagram-js` 的核心模块之一 —— `CommandStack` 命令记录栈的部分逻辑。
+  #### [07-源码篇6：Featrues 体验优化与功能扩展（一）](https://juejin.cn/post/7457866467552641051)
+
+
+  > 上一节中有提到过，features 目录中，主要是一些 功能扩展模块，包含了 palette 画板、contextPad 上下文菜单等，此次就用两章的篇幅来讲一下这里面的一些常用模块（bpmn-js 
 
 
 ## 三、常见问题与解决方案
