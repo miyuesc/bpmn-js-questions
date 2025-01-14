@@ -1,8 +1,10 @@
 # bpmn-js 常见问题和解决方案及工具库说明
 
 > 如果有新的问题，可以点击 [这里](https://github.com/miyuesc/bpmn-js-questions/issues/new/choose) 创建新的 issue 进行讨论。
+> 
+> bpmn-js 交流群附属资料：https://juejin.cn/post/7304831120710434868
 
-> **上次更新时间(UTC)：2025-01-14 00:47:03**
+> **上次更新时间(UTC)：2025-01-14 03:27:34**
 
 ## 一、项目与书籍推荐
 
