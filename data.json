@@ -61,6 +61,11 @@
     "updated_at": "2025-01-07T05:10:07Z",
     "closed_at": null,
     "author_association": "NONE",
+    "sub_issues_summary": {
+      "total": 0,
+      "completed": 0,
+      "percent_completed": 0
+    },
     "active_lock_reason": null,
     "body": "### 遇到了什么问题？\n\n请问如何阻止删除？想在删除事件触发时，做一些校验，阻止不合法的删除行为，木有找到合适的阻止方法。不知道怎么阻止默认的删除事件，使用event.defaultPrevent()事件无效\n\n### bpmn-js 版本\n\n\"diagram-js\": \"6.8.2\"\n\n### 技术栈基础库版本\n\n\"diagram-js\": \"6.8.2\"",
     "closed_by": {
@@ -162,6 +167,11 @@
     "updated_at": "2025-01-07T05:12:28Z",
     "closed_at": null,
     "author_association": "NONE",
+    "sub_issues_summary": {
+      "total": 0,
+      "completed": 0,
+      "percent_completed": 0
+    },
     "active_lock_reason": null,
     "body": "### 遇到了什么问题？\n\n希望自定义组件显示UI，包括Palette及canvas渲染出来的UI。不知道如何定制并实现替换\n\n### bpmn-js 版本\n\n17.9.1\n\n### 技术栈基础库版本\n\nVue3",
     "closed_by": null,
@@ -243,6 +253,11 @@
     "updated_at": "2024-09-14T02:47:46Z",
     "closed_at": "2024-09-13T01:06:18Z",
     "author_association": "NONE",
+    "sub_issues_summary": {
+      "total": 0,
+      "completed": 0,
+      "percent_completed": 0
+    },
     "active_lock_reason": null,
     "body": "### 遇到了什么问题？\n\n首先，感谢大佬无私的贡献，之前在群里也发红包表示了感谢。没有前人栽树，相信在国内选型bpmnjs做设计器的研发人员会少很多。\r\n\r\nlinting.active启用后，如何美化 lint 错误提示？\r\n![c45eea0794bb42170d2c88c67a3bd4f](https://github.com/user-attachments/assets/e1c9e230-6c76-4c47-b0d4-67e100873ea9)\r\n\r\n《Bpmn.js 进阶指南之Lint流程校验(四)自定义检验》末尾提到说明没有在专栏找到，跪谢大佬明示。\r\n![0559632cedcfd2fded53aeafdbfe4e0](https://github.com/user-attachments/assets/df73e8e3-e38d-449c-bfb8-9288573170b5)\r\n\r\n\n\n### bpmn-js 版本\n\n17.0.2\n\n### 技术栈基础库版本\n\nVue2.7.16",
     "closed_by": {
@@ -344,6 +359,11 @@
     "updated_at": "2024-09-11T02:37:26Z",
     "closed_at": null,
     "author_association": "NONE",
+    "sub_issues_summary": {
+      "total": 0,
+      "completed": 0,
+      "percent_completed": 0
+    },
     "active_lock_reason": null,
     "body": "### 遇到了什么问题？\n\n- react 初始化importXml时会出现这个报错\r\n- edge浏览器中不影响页面的显示\r\n- 在官网导入xml没有发现该报错\r\n- 注释掉importXml则不会报错\r\n- \r\n<img width=\"661\" alt=\"微信图片_20240910110710\" src=\"https://github.com/user-attachments/assets/ee2eea6b-ab19-4343-a8cc-8d69eda2ee3a\">\r\n\r\n```js\r\nexport var xmlStr = `<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<definitions xmlns=\"http://www.omg.org/spec/BPMN/20100524/MODEL\" xmlns:bpmndi=\"http://www.omg.org/spec/BPMN/20100524/DI\" xmlns:omgdi=\"http://www.omg.org/spec/DD/20100524/DI\" xmlns:omgdc=\"http://www.omg.org/spec/DD/20100524/DC\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" id=\"sid-38422fae-e03e-43a3-bef4-bd33b32041b2\" targetNamespace=\"http://bpmn.io/bpmn\" exporter=\"bpmn-js (https://demo.bpmn.io)\" exporterVersion=\"5.1.2\">\r\n<process id=\"Process_1\" isExecutable=\"false\">\r\n    <startEvent id=\"StartEvent_1y45yut\" name=\"开始\">\r\n    <outgoing>SequenceFlow_0h21x7r</outgoing>\r\n    </startEvent>\r\n    <task id=\"Task_1hcentk\">\r\n    <incoming>SequenceFlow_0h21x7r</incoming>\r\n    </task>\r\n    <sequenceFlow id=\"SequenceFlow_0h21x7r\" sourceRef=\"StartEvent_1y45yut\" targetRef=\"Task_1hcentk\" />\r\n</process>\r\n<bpmndi:BPMNDiagram id=\"BpmnDiagram_1\">\r\n    <bpmndi:BPMNPlane id=\"BpmnPlane_1\" bpmnElement=\"Process_1\">\r\n    <bpmndi:BPMNShape id=\"StartEvent_1y45yut_di\" bpmnElement=\"StartEvent_1y45yut\">\r\n        <omgdc:Bounds x=\"152\" y=\"102\" width=\"36\" height=\"36\" />\r\n        <bpmndi:BPMNLabel>\r\n        <omgdc:Bounds x=\"160\" y=\"145\" width=\"22\" height=\"14\" />\r\n        </bpmndi:BPMNLabel>\r\n    </bpmndi:BPMNShape>\r\n    <bpmndi:BPMNShape id=\"Task_1hcentk_di\" bpmnElement=\"Task_1hcentk\">\r\n        <omgdc:Bounds x=\"240\" y=\"80\" width=\"100\" height=\"80\" />\r\n    </bpmndi:BPMNShape>\r\n    <bpmndi:BPMNEdge id=\"SequenceFlow_0h21x7r_di\" bpmnElement=\"SequenceFlow_0h21x7r\">\r\n        <omgdi:waypoint x=\"188\" y=\"120\" />\r\n        <omgdi:waypoint x=\"240\" y=\"120\" />\r\n    </bpmndi:BPMNEdge>\r\n    </bpmndi:BPMNPlane>\r\n</bpmndi:BPMNDiagram>\r\n</definitions>`\r\n```\r\n\r\n```jsx\r\n// bpmn自带样式\r\nimport \"bpmn-js/dist/assets/diagram-js.css\";\r\nimport \"bpmn-js/dist/assets/bpmn-font/css/bpmn.css\";\r\nimport \"bpmn-js/dist/assets/bpmn-font/css/bpmn-codes.css\";\r\nimport \"bpmn-js/dist/assets/bpmn-font/css/bpmn-embedded.css\";\r\n\r\nimport React, { useImperativeHandle, forwardRef, useEffect, useRef } from \"react\";\r\nimport BpmnModeler from \"bpmn-js/lib/Modeler\";\r\nimport { xmlStr } from \"./xmlStr\";\r\nconst BpmnModelerComponent = forwardRef((props, ref) => {\r\n    const bpmnModelerRef = useRef(null);\r\n    const bpmnModeler = useRef(null);\r\n    useEffect(() => {\r\n        // 初始化BpmnModeler\r\n        bpmnModeler.current = new BpmnModeler({\r\n            container: \"#flowCanvas\",\r\n        });\r\n\r\n        async function importXML(xmlStr) {\r\n            const { warnings } = await bpmnModeler.current.importXML(xmlStr);\r\n            console.log(\"warnings\", warnings);\r\n        }\r\n        importXML(xmlStr);\r\n        \r\n        // 清理函数\r\n        return () => {\r\n            bpmnModeler.current.destroy();\r\n        };\r\n    }, []);\r\n    useImperativeHandle(ref, () => ({\r\n        exportXML: () => {\r\n            return bpmnModeler.current\r\n                .saveXML({ format: true })\r\n                .then(({ xml }) => {\r\n                    return xml;\r\n                })\r\n                .catch((err) => {\r\n                    console.error(\"Could not save BPMN diagram\", err);\r\n                });\r\n        },\r\n    }));\r\n    return (\r\n        <div>\r\n            <div\r\n                ref={bpmnModelerRef}\r\n                id=\"flowCanvas\"\r\n                style={{ width: \"100%\", height: \"600px\", border: \"1px solid #ccc\" }}\r\n            ></div>\r\n        </div>\r\n    );\r\n});\r\n\r\nexport default BpmnModelerComponent;\r\n\r\n\r\n```\n\n### bpmn-js 版本\n\n17.9.1\n\n### 技术栈基础库版本\n\nreact 18.3.1",
     "closed_by": null,
@@ -425,6 +445,11 @@
     "updated_at": "2024-09-10T02:07:19Z",
     "closed_at": null,
     "author_association": "OWNER",
+    "sub_issues_summary": {
+      "total": 0,
+      "completed": 0,
+      "percent_completed": 0
+    },
     "active_lock_reason": null,
     "body": "### 遇到了什么问题？\n\n![image](https://github.com/user-attachments/assets/b263af87-aef7-4677-a89c-52125f28f77e)\r\n\r\n可以一直显示为双列：\r\n\r\n![image](https://github.com/user-attachments/assets/fdfe5c72-1bc3-4770-8413-880e79e7e891)\r\n\n\n### bpmn-js 版本\n\n13\n\n### 技术栈基础库版本\n\n~",
     "closed_by": null,
@@ -506,6 +531,11 @@
     "updated_at": "2024-09-04T01:36:30Z",
     "closed_at": null,
     "author_association": "OWNER",
+    "sub_issues_summary": {
+      "total": 0,
+      "completed": 0,
+      "percent_completed": 0
+    },
     "active_lock_reason": null,
     "body": "### 遇到了什么问题？\n\n![image](https://github.com/user-attachments/assets/a8d51218-883d-442e-8f6e-40534b4bec5c)\r\n\n\n### bpmn-js 版本\n\n~\n\n### 技术栈基础库版本\n\n~",
     "closed_by": null,
@@ -587,6 +617,11 @@
     "updated_at": "2024-09-04T02:02:35Z",
     "closed_at": null,
     "author_association": "OWNER",
+    "sub_issues_summary": {
+      "total": 0,
+      "completed": 0,
+      "percent_completed": 0
+    },
     "active_lock_reason": null,
     "body": "### 遇到了什么问题？\n\n![image](https://github.com/user-attachments/assets/b487a046-3f73-4a5a-bffb-3d89cf6c4c6c)\r\n\n\n### bpmn-js 版本\n\n18.0.0\n\n### 技术栈基础库版本\n\n~",
     "closed_by": null,
@@ -668,6 +703,11 @@
     "updated_at": "2024-09-14T09:09:48Z",
     "closed_at": null,
     "author_association": "OWNER",
+    "sub_issues_summary": {
+      "total": 0,
+      "completed": 0,
+      "percent_completed": 0
+    },
     "active_lock_reason": null,
     "body": "### 遇到了什么问题？\n\n不需要编辑，只需要实现流程图预览，并且支持拖动、缩放、鼠标控制。\n\n### bpmn-js 版本\n\n~\n\n### 技术栈基础库版本\n\n~",
     "closed_by": null,
@@ -740,6 +780,11 @@
     "updated_at": "2024-08-30T02:16:02Z",
     "closed_at": null,
     "author_association": "OWNER",
+    "sub_issues_summary": {
+      "total": 0,
+      "completed": 0,
+      "percent_completed": 0
+    },
     "active_lock_reason": null,
     "body": "### 遇到了什么问题？\n\n![7be6a95fd26520c88402d4a323c5473](https://github.com/user-attachments/assets/ac790710-94aa-4527-8359-c6f623f2ced5)\r\n\n\n### bpmn-js 版本\n\n~\n\n### 技术栈基础库版本\n\n~",
     "closed_by": null,
@@ -821,6 +866,11 @@
     "updated_at": "2024-09-05T08:16:08Z",
     "closed_at": null,
     "author_association": "OWNER",
+    "sub_issues_summary": {
+      "total": 0,
+      "completed": 0,
+      "percent_completed": 0
+    },
     "active_lock_reason": null,
     "body": "### 遇到了什么问题？\n\n通过 modeler 创建新的元素实例时报错。\r\n\r\n![image](https://github.com/user-attachments/assets/8cfb32e1-69e0-4c59-a216-fb0d604cce54)\r\n\n\n### bpmn-js 版本\n\n~\n\n### 技术栈基础库版本\n\n~",
     "closed_by": null,
@@ -902,6 +952,11 @@
     "updated_at": "2024-10-02T18:18:30Z",
     "closed_at": null,
     "author_association": "OWNER",
+    "sub_issues_summary": {
+      "total": 0,
+      "completed": 0,
+      "percent_completed": 0
+    },
     "active_lock_reason": null,
     "body": "### 遇到了什么问题？\n\n创建/更新元素属性，或者导出文件时出现报错，并且流程图无法操作。\r\n\r\n![image](https://github.com/user-attachments/assets/a4f5f487-e0a7-47aa-ad6b-69329802b634)\r\n\n\n### bpmn-js 版本\n\n~\n\n### 技术栈基础库版本\n\n~",
     "closed_by": null,
@@ -983,6 +1038,11 @@
     "updated_at": "2024-08-30T02:09:55Z",
     "closed_at": null,
     "author_association": "NONE",
+    "sub_issues_summary": {
+      "total": 0,
+      "completed": 0,
+      "percent_completed": 0
+    },
     "active_lock_reason": null,
     "body": "### 遇到了什么问题？\n\n MiyueFE vue3 项目中怎么在创建节点时候修改ID为UUID\n\n### bpmn-js 版本\n\n13.2.0\n\n### 技术栈基础库版本\n\nVue3",
     "closed_by": {
