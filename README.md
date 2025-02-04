@@ -4,7 +4,7 @@
 > 
 > bpmn-js 交流群附属资料：https://juejin.cn/post/7304831120710434868
 
-> **上次更新时间(UTC)：2025-02-03 00:50:19**
+> **上次更新时间(UTC)：2025-02-04 00:48:43**
 
 ## 一、项目与书籍推荐
 
@@ -68,6 +68,91 @@
 
 
 ## 三、常见问题与解决方案
+
+
+  #### [1 : 自定义属性的CustomPropertiesGroup 没用到](https://github.com/miyuesc/bpmn-js-questions/issues/14)
+
+> ❓ Questioner: [duansheli](https://github.com/duansheli)
+
+  #### [2 : 如何阻止元素被删除](https://github.com/miyuesc/bpmn-js-questions/issues/13)
+
+> ❓ Questioner: [LouisXuan](https://github.com/LouisXuan)
+>
+> ✅ This question has been solved.
+
+
+  #### [3 : 自定义组件显示UI](https://github.com/miyuesc/bpmn-js-questions/issues/11)
+
+> ❓ Questioner: [coder319](https://github.com/coder319)
+>
+> ✅ This question has been solved.
+
+
+  #### [4 : 如何美化 lint 错误提示？](https://github.com/miyuesc/bpmn-js-questions/issues/10)
+
+> ❓ Questioner: [y4n6](https://github.com/y4n6)
+>
+> ✅ This question has been solved.
+
+
+  #### [5 : importXml时出现TypeError: Cannot read properties of undefined (reading 'root-0')](https://github.com/miyuesc/bpmn-js-questions/issues/9)
+
+> ❓ Questioner: [Xnwf](https://github.com/Xnwf)
+>
+> ✅ This question has been solved.
+
+
+  #### [6 : 希望 Palette 始终展示双列](https://github.com/miyuesc/bpmn-js-questions/issues/8)
+
+> ❓ Questioner: [miyuesc](https://github.com/miyuesc)
+>
+> ✅ This question has been solved.
+
+
+  #### [7 : Modeler创建后无法从Palette中创建元素](https://github.com/miyuesc/bpmn-js-questions/issues/7)
+
+> ❓ Questioner: [miyuesc](https://github.com/miyuesc)
+>
+> ✅ This question has been solved.
+
+
+  #### [8 : 使用 importXML 导入报错 “no diagram to display”](https://github.com/miyuesc/bpmn-js-questions/issues/6)
+
+> ❓ Questioner: [miyuesc](https://github.com/miyuesc)
+>
+> ✅ This question has been solved.
+
+
+  #### [9 : 只想使用支持缩放和拖拽的预览模式](https://github.com/miyuesc/bpmn-js-questions/issues/5)
+
+> ❓ Questioner: [miyuesc](https://github.com/miyuesc)
+>
+> ✅ This question has been solved.
+
+
+  #### [10 : 使用PropertiesPanel时ID栏出现 “ID must be unique.” 错误](https://github.com/miyuesc/bpmn-js-questions/issues/4)
+
+> ❓ Questioner: [miyuesc](https://github.com/miyuesc)
+
+  #### [11 : 报错：Uncaught Error: unknown type [xxx:xxx]](https://github.com/miyuesc/bpmn-js-questions/issues/3)
+
+> ❓ Questioner: [miyuesc](https://github.com/miyuesc)
+>
+> ✅ This question has been solved.
+
+
+  #### [12 : 操作过程中报错：TypeError: cannot read property 'isGeneric' of undefined](https://github.com/miyuesc/bpmn-js-questions/issues/2)
+
+> ❓ Questioner: [miyuesc](https://github.com/miyuesc)
+>
+> ✅ This question has been solved.
+
+
+  #### [13 : 元素创建时ID生成规则如何修改](https://github.com/miyuesc/bpmn-js-questions/issues/1)
+
+> ❓ Questioner: [Accccccccc](https://github.com/Accccccccc)
+>
+> ✅ This question has been solved.
 
 
 ## 四、bpmn-js 常用工具库说明
