@@ -71,3 +71,7 @@ bpmn-js 编辑器，以及官方属性面板（Camunda 和 Zeebe）中文翻译�
 #### 1. [bpmn-js-task-resize](https://github.com/ElCondor1969/bpmn-js-task-resize)
 
 bpmn-js 编辑 事件及任务节点 的 resize 支持，ElCondor1969 开发维护 (扩展 BpmnRules 的 resize 规则即可，不建议直接使用该库，已多年没有代码更新)。
+
+## 赞助
+
+[<img src="https://api.gitsponsors.com/api/badge/img?id=848708666" height="20">](https://api.gitsponsors.com/api/badge/link?p=Gi4bcSZgKBASxhQ6bnO2XOE2lhLfRlfbeI5AfASszfRMnUB3/qgOCVTs7VfJ1drxkod7I8WLWWi3c7PmxuVtP+L4R77G+v9oUzK62sAat70waRJhrqZ3PNmaOGj464fVwC5mWoZcXp/z07+baJuRFg==)
