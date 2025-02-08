@@ -40,17 +40,26 @@
         "color": "d876e3",
         "default": true,
         "description": "Further information is requested"
+      },
+      {
+        "id": 7394595040,
+        "node_id": "LA_kwDOMpZEOs8AAAABuMCQ4A",
+        "url": "https://api.github.com/repos/miyuesc/bpmn-js-questions/labels/resolved",
+        "name": "resolved",
+        "color": "6FC88D",
+        "default": false,
+        "description": "This question had been resolved."
       }
     ],
-    "state": "open",
+    "state": "closed",
     "locked": false,
     "assignee": null,
     "assignees": [],
     "milestone": null,
     "comments": 3,
     "created_at": "2025-02-03T12:36:34Z",
-    "updated_at": "2025-02-07T00:20:18Z",
-    "closed_at": null,
+    "updated_at": "2025-02-07T07:32:01Z",
+    "closed_at": "2025-02-07T07:31:49Z",
     "author_association": "NONE",
     "sub_issues_summary": {
       "total": 0,
@@ -59,7 +68,27 @@
     },
     "active_lock_reason": null,
     "body": "### 遇到了什么问题？\n\nBpmn.js 进阶指南之原理分析与模块改造\nhttps://juejin.cn/post/7117481147277246500\n\n4.4.3 定义了 CustomPropertiesGroup \n然后下面就没地方调用这个东西了 \n\n4.4.2 CustomPropertiesProviderModule 里面用到了 \nVersionTag\n然后 把4.4.3的 VersionTag 拿过去\n运行提示 Cannot read properties of undefined (reading 'get')\n\n \n\n### bpmn-js 版本\n\n18.2.0\n\n### 技术栈基础库版本\n\nvue 3",
-    "closed_by": null,
+    "closed_by": {
+      "login": "miyuesc",
+      "id": 50617660,
+      "node_id": "MDQ6VXNlcjUwNjE3NjYw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/50617660?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/miyuesc",
+      "html_url": "https://github.com/miyuesc",
+      "followers_url": "https://api.github.com/users/miyuesc/followers",
+      "following_url": "https://api.github.com/users/miyuesc/following{/other_user}",
+      "gists_url": "https://api.github.com/users/miyuesc/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/miyuesc/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/miyuesc/subscriptions",
+      "organizations_url": "https://api.github.com/users/miyuesc/orgs",
+      "repos_url": "https://api.github.com/users/miyuesc/repos",
+      "events_url": "https://api.github.com/users/miyuesc/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/miyuesc/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "reactions": {
       "url": "https://api.github.com/repos/miyuesc/bpmn-js-questions/issues/14/reactions",
       "total_count": 0,
@@ -74,7 +103,7 @@
     },
     "timeline_url": "https://api.github.com/repos/miyuesc/bpmn-js-questions/issues/14/timeline",
     "performed_via_github_app": null,
-    "state_reason": null
+    "state_reason": "completed"
   },
   {
     "url": "https://api.github.com/repos/miyuesc/bpmn-js-questions/issues/13",

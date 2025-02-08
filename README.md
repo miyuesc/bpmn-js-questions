@@ -4,7 +4,7 @@
 > 
 > bpmn-js 交流群附属资料：https://juejin.cn/post/7304831120710434868
 
-> **上次更新时间(UTC)：2025-02-07 00:49:57**
+> **上次更新时间(UTC)：2025-02-08 00:47:44**
 
 ## 一、项目与书籍推荐
 
@@ -73,6 +73,9 @@
   #### [1 : 自定义属性的CustomPropertiesGroup 没用到](https://github.com/miyuesc/bpmn-js-questions/issues/14)
 
 > ❓ Questioner: [duansheli](https://github.com/duansheli)
+>
+> ✅ This question has been solved.
+
 
   #### [2 : 如何阻止元素被删除](https://github.com/miyuesc/bpmn-js-questions/issues/13)
 
