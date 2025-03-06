@@ -3,18 +3,20 @@
 > 如果有新的问题，可以点击 [这里](https://github.com/miyuesc/bpmn-js-questions/issues/new/choose) 创建新的 issue 进行讨论。
 > 
 > bpmn-js 交流群附属资料：https://juejin.cn/post/7304831120710434868
+> 
+> Concat: [Discord](https://discord.gg/8cBhGGyeV5)
 
-> **上次更新时间(UTC)：2025-03-06 00:52:08**
+> **上次更新时间(UTC)：2025-03-06 01:17:52**
 
 ## 一、项目与书籍推荐
 
 #### 1. 开源项目 [eagle-flow](https://gitee.com/lwj/eagle-flow)
 
-> 钉钉风格的流程图编辑器，预览地址：[https://designer.bpmport.com/eagle/](https://designer.bpmport.com/eagle/)，纯前端实现 xml 生成。
+> **钉钉风格且功能强大** 的流程图编辑器，预览地址：[https://designer.bpmport.com/eagle/](https://designer.bpmport.com/eagle/)，**纯前端实现 xml 生成**。
 
 #### 2. 开源项目 [bpmn-process-designer](https://github.com/miyuesc/bpmn-process-designer)
 
-> 核心 bpmn-js 使用与扩展示例
+> **核心 bpmn-js 使用与扩展示例**
 
 #### 3. 商业项目 [Flowable Designer](https://designer.bpmport.com/designer/), [Flowable Viewer](https://designer.bpmport.com/viewer/), [Activiti Designer](https://designer.bpmport.com/activiti/)
 
