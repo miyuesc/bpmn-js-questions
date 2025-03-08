@@ -6,7 +6,7 @@
 > 
 > Concat: [Discord](https://discord.gg/8cBhGGyeV5)
 
-> **上次更新时间(UTC)：2025-03-07 00:52:43**
+> **上次更新时间(UTC)：2025-03-08 00:40:24**
 
 ## 一、项目与书籍推荐
 
@@ -39,6 +39,10 @@
 ## 二、bpmn-js 源码解析和实践
 
 
+  #### [bpmn-js 源码篇7：Featrues 体验优化与功能扩展（二）](https://juejin.cn/post/7478579850924998675)
+
+
+  > 上一章介绍了 Palette、ContextPad 和 Overlays 三个用来辅助绘图的扩展模块，以及如何使用和改造这三个模块。 但除了这几个模块之外，还需套涉及到 鼠标操作、画布操作、拖拽创建等
   #### [01-开篇：重新认识 bpmn.js 与 BPMN 规范](https://juejin.cn/post/7405471008600686633)
 
 
