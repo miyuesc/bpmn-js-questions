@@ -6,7 +6,7 @@
 > 
 > Concat: [Discord](https://discord.gg/8cBhGGyeV5)
 
-> **上次更新时间(UTC)：2025-03-26 00:53:21**
+> **上次更新时间(UTC)：2025-03-27 00:53:17**
 
 ## 一、项目与书籍推荐
 
@@ -39,38 +39,42 @@
 ## 二、bpmn-js 源码解析和实践
 
 
+  #### [bpmn-js 源码篇8：Featrues 体验优化与功能扩展（三）](https://juejin.cn/post/7485664148623310888)
+
+
+  > 前两章我们讲了一些 fratures 中用来帮助创建和操作图元素的相关模块，但是这些内容依然只占了 features 中的一小部分。当我们从 Palette 创建元素或者通过 ContextPad 修
+  #### [bpmn-js 源码解析开篇：重新认识 bpmn.js 与 BPMN 规范](https://juejin.cn/post/7405471008600686633)
+
+
+  > 在正式开始介绍 bpmn.js 源码之前，我想先向大家介绍一下与 bpmn.js 相关的一些概念。根据官网介绍，bpmn.js 作为**符合 BPMN 2.0 标准 XML 文件**的 **阅读器
+  #### [bpmn-js 源码篇1：Injector 依赖注入模式的实现](https://juejin.cn/post/7429243880883322930)
+
+
+  > 作为 bpmn.js 与 diagram.js 的模块化系统的底层依赖，Injector 通过 依赖注入 的形式完美分开了不同功能模块之前的核心代码，保证使用者 只需要了解所需依赖的功能，然后专注于各
+  #### [bpmn-js 源码篇2：diagram.js 简介与EventBus全局事件总线](https://juejin.cn/post/7431760347708670003)
+
+
+  > 总的来说，diagram.js 虽然是作为 bpmn.js 的底层项目，用来提供绘图能力与交互能力，并实现了一些工具函数；但是 本身并没有实现太多功能，只是作为初始化依赖注入器与基础模块的入口，通过
+  #### [bpmn-js 源码篇3：Canvas 基础画布与元素处理模块](https://juejin.cn/post/7451781444571742218)
+
+
+  > 在上一节的 diagram.js 简介部分，有提到过我们在 new 一个 Diagram 实例时，实际是将配置项和 CoreModule 核心模块放在一起之后用来 初始化依赖注入系统并绑定到 Diag
+  #### [bpmn-js 源码篇4：Factory&Registry - 创建与注册-图形与对象的绑定机制](https://juejin.cn/post/7451984387443392562)
+
+
+  > bpmn-js 源码解析和实践：源码篇4 diagram-js 的 ElementFactory 与 ElementRegistry 解析。
+  #### [bpmn-js 源码篇5：CommandStack 命令处理与记录的栈](https://juejin.cn/post/7454960025037783091)
+
+
+  > 《bpmn-js 源码解析和实践》第六篇：CommandStack 命令处理与记录的栈。解析了 `diagram-js` 的核心模块之一 —— `CommandStack` 命令记录栈的部分逻辑。
+  #### [bpmn-js 源码篇6：Featrues 体验优化与功能扩展（一）](https://juejin.cn/post/7457866467552641051)
+
+
+  > 上一节中有提到过，features 目录中，主要是一些 功能扩展模块，包含了 palette 画板、contextPad 上下文菜单等，此次就用两章的篇幅来讲一下这里面的一些常用模块（bpmn-js 
   #### [bpmn-js 源码篇7：Featrues 体验优化与功能扩展（二）](https://juejin.cn/post/7478579850924998675)
 
 
   > 上一章介绍了 Palette、ContextPad 和 Overlays 三个用来辅助绘图的扩展模块，以及如何使用和改造这三个模块。 但除了这几个模块之外，还需套涉及到 鼠标操作、画布操作、拖拽创建等
-  #### [01-开篇：重新认识 bpmn.js 与 BPMN 规范](https://juejin.cn/post/7405471008600686633)
-
-
-  > 在正式开始介绍 bpmn.js 源码之前，我想先向大家介绍一下与 bpmn.js 相关的一些概念。根据官网介绍，bpmn.js 作为**符合 BPMN 2.0 标准 XML 文件**的 **阅读器
-  #### [02-源码篇1：Injector 依赖注入模式的实现](https://juejin.cn/post/7429243880883322930)
-
-
-  > 作为 bpmn.js 与 diagram.js 的模块化系统的底层依赖，Injector 通过 依赖注入 的形式完美分开了不同功能模块之前的核心代码，保证使用者 只需要了解所需依赖的功能，然后专注于各
-  #### [03-源码篇2：diagram.js 简介与EventBus全局事件总线](https://juejin.cn/post/7431760347708670003)
-
-
-  > 总的来说，diagram.js 虽然是作为 bpmn.js 的底层项目，用来提供绘图能力与交互能力，并实现了一些工具函数；但是 本身并没有实现太多功能，只是作为初始化依赖注入器与基础模块的入口，通过
-  #### [04-源码篇3：Canvas 基础画布与元素处理模块](https://juejin.cn/post/7451781444571742218)
-
-
-  > 在上一节的 diagram.js 简介部分，有提到过我们在 new 一个 Diagram 实例时，实际是将配置项和 CoreModule 核心模块放在一起之后用来 初始化依赖注入系统并绑定到 Diag
-  #### [05-源码篇4：Factory&Registry - 创建与注册-图形与对象的绑定机制](https://juejin.cn/post/7451984387443392562)
-
-
-  > bpmn-js 源码解析和实践：源码篇4 diagram-js 的 ElementFactory 与 ElementRegistry 解析。
-  #### [06-源码篇5：CommandStack 命令处理与记录的栈](https://juejin.cn/post/7454960025037783091)
-
-
-  > 《bpmn-js 源码解析和实践》第六篇：CommandStack 命令处理与记录的栈。解析了 `diagram-js` 的核心模块之一 —— `CommandStack` 命令记录栈的部分逻辑。
-  #### [07-源码篇6：Featrues 体验优化与功能扩展（一）](https://juejin.cn/post/7457866467552641051)
-
-
-  > 上一节中有提到过，features 目录中，主要是一些 功能扩展模块，包含了 palette 画板、contextPad 上下文菜单等，此次就用两章的篇幅来讲一下这里面的一些常用模块（bpmn-js 
 
 
 ## 三、常见问题与解决方案
