@@ -6,7 +6,7 @@
 > 
 > Concat: [Discord](https://discord.gg/8cBhGGyeV5)
 
-> **上次更新时间(UTC)：2025-04-01 01:00:41**
+> **上次更新时间(UTC)：2025-04-02 00:54:31**
 
 ## 一、项目与书籍推荐
 
@@ -39,6 +39,10 @@
 ## 二、bpmn-js 源码解析和实践
 
 
+  #### [bpmn-js 源码篇9：Moddle - 对象格式的标准化定义库](https://juejin.cn/post/7488178218081779727)
+
+
+  > moddle 仓库，本身在 bpmn-js 或者 dmn-js 等基于 diagram-js 开发的图形绘制库中，相当于 对元素及元素扩展属性的一个标准化处理模块，它 规定了如何注册元素类型与属性更新
   #### [bpmn-js 源码篇8：Featrues 体验优化与功能扩展（三）](https://juejin.cn/post/7485664148623310888)
 
 
