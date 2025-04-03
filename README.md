@@ -6,7 +6,7 @@
 > 
 > Concat: [Discord](https://discord.gg/8cBhGGyeV5)
 
-> **上次更新时间(UTC)：2025-04-02 00:54:31**
+> **上次更新时间(UTC)：2025-04-03 00:53:50**
 
 ## 一、项目与书籍推荐
 
@@ -39,14 +39,6 @@
 ## 二、bpmn-js 源码解析和实践
 
 
-  #### [bpmn-js 源码篇9：Moddle - 对象格式的标准化定义库](https://juejin.cn/post/7488178218081779727)
-
-
-  > moddle 仓库，本身在 bpmn-js 或者 dmn-js 等基于 diagram-js 开发的图形绘制库中，相当于 对元素及元素扩展属性的一个标准化处理模块，它 规定了如何注册元素类型与属性更新
-  #### [bpmn-js 源码篇8：Featrues 体验优化与功能扩展（三）](https://juejin.cn/post/7485664148623310888)
-
-
-  > 前两章我们讲了一些 fratures 中用来帮助创建和操作图元素的相关模块，但是这些内容依然只占了 features 中的一小部分。当我们从 Palette 创建元素或者通过 ContextPad 修
   #### [bpmn-js 源码解析开篇：重新认识 bpmn.js 与 BPMN 规范](https://juejin.cn/post/7405471008600686633)
 
 
@@ -79,6 +71,14 @@
 
 
   > 上一章介绍了 Palette、ContextPad 和 Overlays 三个用来辅助绘图的扩展模块，以及如何使用和改造这三个模块。 但除了这几个模块之外，还需套涉及到 鼠标操作、画布操作、拖拽创建等
+  #### [bpmn-js 源码篇8：Featrues 体验优化与功能扩展（三）](https://juejin.cn/post/7485664148623310888)
+
+
+  > 前两章我们讲了一些 fratures 中用来帮助创建和操作图元素的相关模块，但是这些内容依然只占了 features 中的一小部分。当我们从 Palette 创建元素或者通过 ContextPad 修
+  #### [bpmn-js 源码篇9：Moddle - 对象格式的标准化定义库](https://juejin.cn/post/7488178218081779727)
+
+
+  > moddle 仓库，本身在 bpmn-js 或者 dmn-js 等基于 diagram-js 开发的图形绘制库中，相当于 对元素及元素扩展属性的一个标准化处理模块，它 规定了如何注册元素类型与属性更新
 
 
 ## 三、常见问题与解决方案
