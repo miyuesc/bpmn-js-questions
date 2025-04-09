@@ -6,7 +6,7 @@
 > 
 > Concat: [Discord](https://discord.gg/8cBhGGyeV5)
 
-> **上次更新时间(UTC)：2025-04-08 00:53:46**
+> **上次更新时间(UTC)：2025-04-09 00:54:10**
 
 ## 一、项目与书籍推荐
 
@@ -39,10 +39,6 @@
 ## 二、bpmn-js 源码解析和实践
 
 
-  #### [bpmn-js 源码篇10：moddle-xml与bpmn-moddle - xml 与 js 对象之间的核心转换库](https://juejin.cn/post/7489868655212494882)
-
-
-  > 上一节 Moddle 的讲解中，已经清楚了 bpmn-js 在 编辑图形的过程中 是通过什么方式来规定每个元素与属性的合法性的，知道了我们所说的 属性描述对象 descriptor json 到底是一
   #### [bpmn-js 源码解析开篇：重新认识 bpmn.js 与 BPMN 规范](https://juejin.cn/post/7405471008600686633)
 
 
@@ -83,6 +79,10 @@
 
 
   > moddle 仓库，本身在 bpmn-js 或者 dmn-js 等基于 diagram-js 开发的图形绘制库中，相当于 对元素及元素扩展属性的一个标准化处理模块，它 规定了如何注册元素类型与属性更新
+  #### [bpmn-js 源码篇10：moddle-xml与bpmn-moddle - xml 与 js 对象之间的核心转换库](https://juejin.cn/post/7489868655212494882)
+
+
+  > 上一节 Moddle 的讲解中，已经清楚了 bpmn-js 在 编辑图形的过程中 是通过什么方式来规定每个元素与属性的合法性的，知道了我们所说的 属性描述对象 descriptor json 到底是一
 
 
 ## 三、常见问题与解决方案
