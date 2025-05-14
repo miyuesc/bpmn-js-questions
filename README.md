@@ -6,7 +6,7 @@
 > 
 > Concat: [Discord](https://discord.gg/8cBhGGyeV5)
 
-> **上次更新时间(UTC)：2025-05-13 00:57:34**
+> **上次更新时间(UTC)：2025-05-14 00:57:08**
 
 ## 一、项目与书籍推荐
 
@@ -39,6 +39,10 @@
 ## 二、bpmn-js 源码解析和实践
 
 
+  #### [bpmn-js 源码篇11：Viewer&Modeler - BPMN2.0 文件预览工具和编辑工具](https://juejin.cn/post/7503827597463896099)
+
+
+  > 当我们已经掌握了之前的内容以后，再来看 bpmn-js 或者 dmn-js 图形界面 的逻辑其实就很简单了。 根据 Bpmn.js 进阶指南之原理分析与模块改造 中讲到的 bpmn-js 的 Mode
   #### [bpmn-js 源码解析开篇：重新认识 bpmn.js 与 BPMN 规范](https://juejin.cn/post/7405471008600686633)
 
 
