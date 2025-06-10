@@ -6,7 +6,7 @@
 > 
 > Concat: [Discord](https://discord.gg/8cBhGGyeV5)
 
-> **上次更新时间(UTC)：2025-06-09 01:01:58**
+> **上次更新时间(UTC)：2025-06-10 00:59:21**
 
 ## 一、项目与书籍推荐
 
@@ -92,7 +92,11 @@
 ## 三、常见问题与解决方案
 
 
-  #### [1 [Document]: bpmn.js在Viewer下根据activeNodes显示不同颜色的箭头](https://github.com/miyuesc/bpmn-js-questions/issues/16)
+  #### [1 : bpmn.js 在 Viewer 下如何连线箭头的颜色](https://github.com/miyuesc/bpmn-js-questions/issues/16)
+
+> ❓ Questioner: [xiaoyu-ye](https://github.com/xiaoyu-ye)
+>
+> ✅ This question has been solved.
 
 
   #### [2 : bpmn-js可以解析不包含BPMNDiagram的xml文件么？](https://github.com/miyuesc/bpmn-js-questions/issues/15)
