@@ -6,9 +6,9 @@
 > 
 > Concat: [Discord](https://discord.gg/8cBhGGyeV5)
 
-> **上次更新时间(UTC)：2026-02-09 01:19:29**
+> **上次更新时间(UTC)：2026-02-09 03:08:21**
 
-## 一、项目与书籍推荐
+## 一、开源项目、在线文档、源码书籍
 
 #### 1. 开源项目 [eagle-flow](https://gitee.com/lwj/eagle-flow)
 
@@ -26,7 +26,17 @@
 >
 > 详情请查看 [官网](https://www.bpmport.com/products)
 
-#### 4. 相关书籍
+#### 4. 在线文档 [awesome-bpmn-io](https://github.com/bpmn-io/awesome-bpmn-io?tab=readme-ov-file)
+
+> bpmn-io 官方资料仓库。
+>
+> 包含 官方学习资源、官方开源库与扩展工具库、官方集成示例、官方成员采访视频等。
+
+#### 5. 在线文档 [diagram-js api 文档](https://diagram-js.pages.dev/api/model/)
+
+> bpmn-js 核心依赖之一 - diagram-js 的 api 文档与结构说明。
+
+#### 6. 源码书籍
 
 > [《深入Activiti流程引擎：核心原理与高阶实战》- 贺波](https://item.jd.com/13928958.html)
 > 
