@@ -131,7 +131,8 @@
     },
     "timeline_url": "https://api.github.com/repos/miyuesc/bpmn-js-questions/issues/16/timeline",
     "performed_via_github_app": null,
-    "state_reason": null
+    "state_reason": null,
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/miyuesc/bpmn-js-questions/issues/15",
@@ -223,7 +224,8 @@
     },
     "timeline_url": "https://api.github.com/repos/miyuesc/bpmn-js-questions/issues/15/timeline",
     "performed_via_github_app": null,
-    "state_reason": null
+    "state_reason": null,
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/miyuesc/bpmn-js-questions/issues/14",
@@ -335,7 +337,8 @@
     },
     "timeline_url": "https://api.github.com/repos/miyuesc/bpmn-js-questions/issues/14/timeline",
     "performed_via_github_app": null,
-    "state_reason": "completed"
+    "state_reason": "completed",
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/miyuesc/bpmn-js-questions/issues/13",
@@ -447,7 +450,8 @@
     },
     "timeline_url": "https://api.github.com/repos/miyuesc/bpmn-js-questions/issues/13/timeline",
     "performed_via_github_app": null,
-    "state_reason": "reopened"
+    "state_reason": "reopened",
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/miyuesc/bpmn-js-questions/issues/11",
@@ -539,7 +543,8 @@
     },
     "timeline_url": "https://api.github.com/repos/miyuesc/bpmn-js-questions/issues/11/timeline",
     "performed_via_github_app": null,
-    "state_reason": null
+    "state_reason": null,
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/miyuesc/bpmn-js-questions/issues/10",
@@ -651,7 +656,8 @@
     },
     "timeline_url": "https://api.github.com/repos/miyuesc/bpmn-js-questions/issues/10/timeline",
     "performed_via_github_app": null,
-    "state_reason": "completed"
+    "state_reason": "completed",
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/miyuesc/bpmn-js-questions/issues/9",
@@ -743,7 +749,8 @@
     },
     "timeline_url": "https://api.github.com/repos/miyuesc/bpmn-js-questions/issues/9/timeline",
     "performed_via_github_app": null,
-    "state_reason": null
+    "state_reason": null,
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/miyuesc/bpmn-js-questions/issues/8",
@@ -835,7 +842,8 @@
     },
     "timeline_url": "https://api.github.com/repos/miyuesc/bpmn-js-questions/issues/8/timeline",
     "performed_via_github_app": null,
-    "state_reason": null
+    "state_reason": null,
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/miyuesc/bpmn-js-questions/issues/7",
@@ -927,7 +935,8 @@
     },
     "timeline_url": "https://api.github.com/repos/miyuesc/bpmn-js-questions/issues/7/timeline",
     "performed_via_github_app": null,
-    "state_reason": null
+    "state_reason": null,
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/miyuesc/bpmn-js-questions/issues/6",
@@ -1019,7 +1028,8 @@
     },
     "timeline_url": "https://api.github.com/repos/miyuesc/bpmn-js-questions/issues/6/timeline",
     "performed_via_github_app": null,
-    "state_reason": null
+    "state_reason": null,
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/miyuesc/bpmn-js-questions/issues/5",
@@ -1111,7 +1121,8 @@
     },
     "timeline_url": "https://api.github.com/repos/miyuesc/bpmn-js-questions/issues/5/timeline",
     "performed_via_github_app": null,
-    "state_reason": null
+    "state_reason": null,
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/miyuesc/bpmn-js-questions/issues/4",
@@ -1203,7 +1214,8 @@
     },
     "timeline_url": "https://api.github.com/repos/miyuesc/bpmn-js-questions/issues/4/timeline",
     "performed_via_github_app": null,
-    "state_reason": null
+    "state_reason": null,
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/miyuesc/bpmn-js-questions/issues/3",
@@ -1295,7 +1307,8 @@
     },
     "timeline_url": "https://api.github.com/repos/miyuesc/bpmn-js-questions/issues/3/timeline",
     "performed_via_github_app": null,
-    "state_reason": null
+    "state_reason": null,
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/miyuesc/bpmn-js-questions/issues/2",
@@ -1387,7 +1400,8 @@
     },
     "timeline_url": "https://api.github.com/repos/miyuesc/bpmn-js-questions/issues/2/timeline",
     "performed_via_github_app": null,
-    "state_reason": null
+    "state_reason": null,
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/miyuesc/bpmn-js-questions/issues/1",
@@ -1499,6 +1513,7 @@
     },
     "timeline_url": "https://api.github.com/repos/miyuesc/bpmn-js-questions/issues/1/timeline",
     "performed_via_github_app": null,
-    "state_reason": "reopened"
+    "state_reason": "reopened",
+    "pinned_comment": null
   }
 ]
