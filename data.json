@@ -39,7 +39,9 @@
         "name": "question",
         "color": "d876e3",
         "default": true,
-        "description": "Further information is requested"
+        "description": "Further information is requested",
+        "archived_at": null,
+        "archived_by": null
       },
       {
         "id": 7394595040,
@@ -48,7 +50,9 @@
         "name": "resolved",
         "color": "6FC88D",
         "default": false,
-        "description": "This question had been resolved."
+        "description": "This question had been resolved.",
+        "archived_at": null,
+        "archived_by": null
       }
     ],
     "state": "open",
@@ -174,7 +178,9 @@
         "name": "question",
         "color": "d876e3",
         "default": true,
-        "description": "Further information is requested"
+        "description": "Further information is requested",
+        "archived_at": null,
+        "archived_by": null
       },
       {
         "id": 7394595040,
@@ -183,7 +189,9 @@
         "name": "resolved",
         "color": "6FC88D",
         "default": false,
-        "description": "This question had been resolved."
+        "description": "This question had been resolved.",
+        "archived_at": null,
+        "archived_by": null
       }
     ],
     "state": "open",
@@ -267,7 +275,9 @@
         "name": "question",
         "color": "d876e3",
         "default": true,
-        "description": "Further information is requested"
+        "description": "Further information is requested",
+        "archived_at": null,
+        "archived_by": null
       },
       {
         "id": 7394595040,
@@ -276,7 +286,9 @@
         "name": "resolved",
         "color": "6FC88D",
         "default": false,
-        "description": "This question had been resolved."
+        "description": "This question had been resolved.",
+        "archived_at": null,
+        "archived_by": null
       }
     ],
     "state": "closed",
@@ -380,7 +392,9 @@
         "name": "question",
         "color": "d876e3",
         "default": true,
-        "description": "Further information is requested"
+        "description": "Further information is requested",
+        "archived_at": null,
+        "archived_by": null
       },
       {
         "id": 7394595040,
@@ -389,7 +403,9 @@
         "name": "resolved",
         "color": "6FC88D",
         "default": false,
-        "description": "This question had been resolved."
+        "description": "This question had been resolved.",
+        "archived_at": null,
+        "archived_by": null
       }
     ],
     "state": "open",
@@ -473,7 +489,9 @@
         "name": "question",
         "color": "d876e3",
         "default": true,
-        "description": "Further information is requested"
+        "description": "Further information is requested",
+        "archived_at": null,
+        "archived_by": null
       },
       {
         "id": 7394595040,
@@ -482,7 +500,9 @@
         "name": "resolved",
         "color": "6FC88D",
         "default": false,
-        "description": "This question had been resolved."
+        "description": "This question had been resolved.",
+        "archived_at": null,
+        "archived_by": null
       }
     ],
     "state": "open",
@@ -566,7 +586,9 @@
         "name": "question",
         "color": "d876e3",
         "default": true,
-        "description": "Further information is requested"
+        "description": "Further information is requested",
+        "archived_at": null,
+        "archived_by": null
       },
       {
         "id": 7394595040,
@@ -575,7 +597,9 @@
         "name": "resolved",
         "color": "6FC88D",
         "default": false,
-        "description": "This question had been resolved."
+        "description": "This question had been resolved.",
+        "archived_at": null,
+        "archived_by": null
       }
     ],
     "state": "closed",
@@ -679,7 +703,9 @@
         "name": "question",
         "color": "d876e3",
         "default": true,
-        "description": "Further information is requested"
+        "description": "Further information is requested",
+        "archived_at": null,
+        "archived_by": null
       },
       {
         "id": 7394595040,
@@ -688,7 +714,9 @@
         "name": "resolved",
         "color": "6FC88D",
         "default": false,
-        "description": "This question had been resolved."
+        "description": "This question had been resolved.",
+        "archived_at": null,
+        "archived_by": null
       }
     ],
     "state": "open",
@@ -772,7 +800,9 @@
         "name": "question",
         "color": "d876e3",
         "default": true,
-        "description": "Further information is requested"
+        "description": "Further information is requested",
+        "archived_at": null,
+        "archived_by": null
       },
       {
         "id": 7394595040,
@@ -781,7 +811,9 @@
         "name": "resolved",
         "color": "6FC88D",
         "default": false,
-        "description": "This question had been resolved."
+        "description": "This question had been resolved.",
+        "archived_at": null,
+        "archived_by": null
       }
     ],
     "state": "open",
@@ -865,7 +897,9 @@
         "name": "question",
         "color": "d876e3",
         "default": true,
-        "description": "Further information is requested"
+        "description": "Further information is requested",
+        "archived_at": null,
+        "archived_by": null
       },
       {
         "id": 7394595040,
@@ -874,7 +908,9 @@
         "name": "resolved",
         "color": "6FC88D",
         "default": false,
-        "description": "This question had been resolved."
+        "description": "This question had been resolved.",
+        "archived_at": null,
+        "archived_by": null
       }
     ],
     "state": "open",
@@ -958,7 +994,9 @@
         "name": "question",
         "color": "d876e3",
         "default": true,
-        "description": "Further information is requested"
+        "description": "Further information is requested",
+        "archived_at": null,
+        "archived_by": null
       },
       {
         "id": 7394595040,
@@ -967,7 +1005,9 @@
         "name": "resolved",
         "color": "6FC88D",
         "default": false,
-        "description": "This question had been resolved."
+        "description": "This question had been resolved.",
+        "archived_at": null,
+        "archived_by": null
       }
     ],
     "state": "open",
@@ -1051,7 +1091,9 @@
         "name": "question",
         "color": "d876e3",
         "default": true,
-        "description": "Further information is requested"
+        "description": "Further information is requested",
+        "archived_at": null,
+        "archived_by": null
       },
       {
         "id": 7394595040,
@@ -1060,7 +1102,9 @@
         "name": "resolved",
         "color": "6FC88D",
         "default": false,
-        "description": "This question had been resolved."
+        "description": "This question had been resolved.",
+        "archived_at": null,
+        "archived_by": null
       }
     ],
     "state": "open",
@@ -1144,7 +1188,9 @@
         "name": "question",
         "color": "d876e3",
         "default": true,
-        "description": "Further information is requested"
+        "description": "Further information is requested",
+        "archived_at": null,
+        "archived_by": null
       },
       {
         "id": 7394595040,
@@ -1153,7 +1199,9 @@
         "name": "resolved",
         "color": "6FC88D",
         "default": false,
-        "description": "This question had been resolved."
+        "description": "This question had been resolved.",
+        "archived_at": null,
+        "archived_by": null
       }
     ],
     "state": "open",
@@ -1237,7 +1285,9 @@
         "name": "question",
         "color": "d876e3",
         "default": true,
-        "description": "Further information is requested"
+        "description": "Further information is requested",
+        "archived_at": null,
+        "archived_by": null
       },
       {
         "id": 7394595040,
@@ -1246,7 +1296,9 @@
         "name": "resolved",
         "color": "6FC88D",
         "default": false,
-        "description": "This question had been resolved."
+        "description": "This question had been resolved.",
+        "archived_at": null,
+        "archived_by": null
       }
     ],
     "state": "open",
@@ -1330,7 +1382,9 @@
         "name": "question",
         "color": "d876e3",
         "default": true,
-        "description": "Further information is requested"
+        "description": "Further information is requested",
+        "archived_at": null,
+        "archived_by": null
       },
       {
         "id": 7394595040,
@@ -1339,7 +1393,9 @@
         "name": "resolved",
         "color": "6FC88D",
         "default": false,
-        "description": "This question had been resolved."
+        "description": "This question had been resolved.",
+        "archived_at": null,
+        "archived_by": null
       }
     ],
     "state": "open",
@@ -1423,7 +1479,9 @@
         "name": "question",
         "color": "d876e3",
         "default": true,
-        "description": "Further information is requested"
+        "description": "Further information is requested",
+        "archived_at": null,
+        "archived_by": null
       },
       {
         "id": 7394595040,
@@ -1432,7 +1490,9 @@
         "name": "resolved",
         "color": "6FC88D",
         "default": false,
-        "description": "This question had been resolved."
+        "description": "This question had been resolved.",
+        "archived_at": null,
+        "archived_by": null
       }
     ],
     "state": "open",
