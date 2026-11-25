@@ -107,6 +107,8 @@
       "site_admin": false
     },
     "author_association": "NONE",
+    "issue_field_values": [],
+    "type": null,
     "status": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
@@ -205,6 +207,8 @@
     "closed_at": null,
     "assignee": null,
     "author_association": "NONE",
+    "issue_field_values": [],
+    "type": null,
     "status": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
@@ -303,6 +307,8 @@
     "closed_at": "2025-02-07T07:31:49Z",
     "assignee": null,
     "author_association": "NONE",
+    "issue_field_values": [],
+    "type": null,
     "status": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
@@ -421,6 +427,8 @@
     "closed_at": null,
     "assignee": null,
     "author_association": "NONE",
+    "issue_field_values": [],
+    "type": null,
     "status": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
@@ -519,6 +527,8 @@
     "closed_at": null,
     "assignee": null,
     "author_association": "NONE",
+    "issue_field_values": [],
+    "type": null,
     "status": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
@@ -617,6 +627,8 @@
     "closed_at": "2024-09-13T01:06:18Z",
     "assignee": null,
     "author_association": "NONE",
+    "issue_field_values": [],
+    "type": null,
     "status": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
@@ -735,6 +747,8 @@
     "closed_at": null,
     "assignee": null,
     "author_association": "NONE",
+    "issue_field_values": [],
+    "type": null,
     "status": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
@@ -833,6 +847,8 @@
     "closed_at": null,
     "assignee": null,
     "author_association": "OWNER",
+    "issue_field_values": [],
+    "type": null,
     "status": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
@@ -931,6 +947,8 @@
     "closed_at": null,
     "assignee": null,
     "author_association": "OWNER",
+    "issue_field_values": [],
+    "type": null,
     "status": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
@@ -1029,6 +1047,8 @@
     "closed_at": null,
     "assignee": null,
     "author_association": "OWNER",
+    "issue_field_values": [],
+    "type": null,
     "status": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
@@ -1127,6 +1147,8 @@
     "closed_at": null,
     "assignee": null,
     "author_association": "OWNER",
+    "issue_field_values": [],
+    "type": null,
     "status": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
@@ -1225,6 +1247,8 @@
     "closed_at": null,
     "assignee": null,
     "author_association": "OWNER",
+    "issue_field_values": [],
+    "type": null,
     "status": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
@@ -1323,6 +1347,8 @@
     "closed_at": null,
     "assignee": null,
     "author_association": "OWNER",
+    "issue_field_values": [],
+    "type": null,
     "status": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
@@ -1421,6 +1447,8 @@
     "closed_at": null,
     "assignee": null,
     "author_association": "OWNER",
+    "issue_field_values": [],
+    "type": null,
     "status": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
@@ -1519,6 +1547,8 @@
     "closed_at": null,
     "assignee": null,
     "author_association": "NONE",
+    "issue_field_values": [],
+    "type": null,
     "status": null,
     "active_lock_reason": null,
     "sub_issues_summary": {
